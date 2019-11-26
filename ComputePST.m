@@ -127,7 +127,7 @@ cd ..
 %% Output
 if isequal(methodOption,1) || isequal(methodOption,2)
     disp(['PStensor = ', mat2str(PStensor.tensor) ]) ;
-    disp(['Simmetrised tensor = ', mat2str(PStensor.tensorSymmetrised) ]) ;
+    disp(['Symmetrised tensor = ', mat2str(PStensor.tensorSymmetrised) ]) ;
 elseif isequal(methodOption,3) || isequal(methodOption,4)
     disp(['PStensor = ', mat2str(PStensor) ]) ;
 end
